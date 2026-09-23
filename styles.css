@@ -10,7 +10,7 @@
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #d6ffe1;
 }
 
 .body{
@@ -22,7 +22,7 @@
 }
 
 .footer{                
-    background-color: #023E8A;
+    background-color: #00bf63;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
@@ -30,7 +30,7 @@
 }
 
 .nav-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #00bf63;
 }
 
 .nav-menu-item{               /* navbar link text properties */
@@ -40,7 +40,7 @@
 }
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #d6ffe1;
 }
 
 .overview-left-padding{
@@ -52,12 +52,12 @@
 }
 
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #d6ffe1;
     padding: 1px;
 }
 
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #59d97c; /*#0096c7*/
 }
 
 /* ----------------- ID CSS ----------------- */
