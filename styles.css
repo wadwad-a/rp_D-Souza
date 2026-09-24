@@ -1,8 +1,13 @@
 /* ----------------- Class CSS ----------------- */
 
-.about{
+.about {
     width:400px;
     margin: auto;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.875) 0s;
+}   
+
+.about:hover {
+    transform: rotate(5deg);
 }
 
 .about-team{
@@ -27,6 +32,14 @@
 
 .icon-white{            /* Arrow icon at bottom of page */
     color: #FFFFFF;
+}
+
+.img-trans {
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.875) 0s;
+}
+
+.img-trans:hover {
+    transform: rotate(5deg);
 }
 
 .nav-background-color{   /* navbar background color */
