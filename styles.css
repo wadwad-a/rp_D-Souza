@@ -76,6 +76,11 @@
     padding: 1px;
 }
 
+.procedure-img {
+    width: 250px;
+    border-radius: 20px;
+}
+
 .showcase{
     background-color: #59d97c; /*#0096c7*/
 }
