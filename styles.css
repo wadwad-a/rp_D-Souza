@@ -22,6 +22,11 @@
     background-color: rgb(90, 92, 92);
 }
 
+.brand {
+    width: 75px;
+    height: 75px;
+}
+
 .chartjs-sample{
     background-color: #8fa3ab;
 }
@@ -35,6 +40,8 @@
 }
 
 .img-trans {
+    margin-top: 25px;
+    border-radius: 20px;
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.875) 0s;
 }
 
