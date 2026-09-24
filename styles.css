@@ -6,7 +6,7 @@
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.875) 0s;
 }   
 
-.about:hover {
+.about:hover{
     transform: rotate(5deg);
 }
 
@@ -39,14 +39,24 @@
     color: #FFFFFF;
 }
 
-.img-trans {
+.img-trans-right {
     margin-top: 25px;
     border-radius: 20px;
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.875) 0s;
 }
 
-.img-trans:hover {
+.img-trans-right:hover {
     transform: rotate(5deg);
+}
+
+.img-trans-left {
+    margin-top: 25px;
+    border-radius: 20px;
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.875) 0s;
+}
+
+.img-trans-left:hover {
+    transform: rotate(-5deg);
 }
 
 .nav-background-color{   /* navbar background color */
