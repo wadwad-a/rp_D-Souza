@@ -1,25 +1,33 @@
+/* --------------- Font Imports ---------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
 /* ----------------- Class CSS ----------------- */
 
 .about {
-    width:400px;
+    width: 400px;
     margin: auto;
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.875) 0s;
-}   
+}
 
-.about:hover{
+.about:hover {
     transform: rotate(5deg);
 }
 
-.about-team{
-    color:rgb(82, 81, 81)
+.about-team {
+    color: rgb(0, 0, 0);
+    font-family: "Smooch Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
 }
 
-.authors{
+.authors {
     background-color: #d6ffe1;
+    font-family: "Exo 2", sans-serif;
 }
 
-.body{
-    background-color: rgb(90, 92, 92);
+.body {
+    background-color: #00bf63;
 }
 
 .brand {
@@ -27,20 +35,20 @@
     height: 75px;
 }
 
-.chartjs-sample{
+.chartjs-sample {
     background-color: #8fa3ab;
 }
 
-.footer{                
+.footer {
     background-color: #00bf63;
 }
 
-.icon-white{            /* Arrow icon at bottom of page */
+.icon-white {
+    /* Arrow icon at bottom of page */
     color: #FFFFFF;
 }
 
 .img-trans-right {
-    margin-top: 25px;
     border-radius: 20px;
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.875) 0s;
 }
@@ -50,7 +58,6 @@
 }
 
 .img-trans-left {
-    margin-top: 25px;
     border-radius: 20px;
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.875) 0s;
 }
@@ -59,31 +66,42 @@
     transform: rotate(-5deg);
 }
 
-.nav-background-color{   /* navbar background color */
+.nav-background-color {
+    /* navbar background color */
     background-color: #00bf63;
 }
 
-.nav-menu-item{               /* navbar link text properties */
-    font-size:25px;
+.nav-menu-item {
+    /* navbar link text properties */
+    font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
+    font-family: "Smooch Sans", sans-serif;
+    color: #ffffff;
 }
 
-.overview{
+.overview {
     background-color: #d6ffe1;
+    font-family: "Exo 2", sans-serif;
 }
 
-.overview-left-padding{
+.overview-left-padding {
     padding-left: 20px;
 }
 
-.overview-right-padding{  
+.overview-right-padding {
     padding-right: 20px;
 }
 
-.procedure{
+.procedure {
     background-color: #d6ffe1;
     padding: 1px;
+    font-family: "Smooch Sans", sans-serif;
+    margin-top: 100px;
+}
+
+.procedure-header {
+    font-weight: 600;
 }
 
 .procedure-img {
@@ -91,20 +109,22 @@
     border-radius: 20px;
 }
 
-.showcase{
-    background-color: #59d97c; /*#0096c7*/
+.showcase {
+    background-color: #59d97c;
+    font-family: "Smooch Sans", sans-serif;
+    margin-top: 100px;
 }
 
 /* ----------------- ID CSS ----------------- */
 
 /* -----------------Underline Animation CSS -----------------*/
-#chart-wrapper{
+#chart-wrapper {
     margin: auto;
-    padding: 10px; 
+    padding: 10px;
     min-height: 400px;
     background-color: whitesmoke !important;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 
 
@@ -112,9 +132,8 @@
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    /*color: #0087ca;*/
-  }
-  
+}
+
 .hover-underline-animation:after {
     content: '';
     position: absolute;
@@ -124,11 +143,30 @@
     bottom: 0;
     left: 0;
     background-color: #eae6e6;
-    /*transform-origin: bottom right;*/
     transition: transform 0.35s ease-out;
 }
-  
+
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
-    /*transform-origin: bottom left;*/
+}
+
+.title-content::after {
+    content: "Aaron D'Souza";
+    bottom: 10px;
+    left: 160px;
+    position: absolute;
+    width: 100%;
+    font-family: "Smooch Sans", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-brand::after {
+    content: 'Research Practicum';
+    bottom: 40px;
+    left: 160px;
+    position: absolute;
+    width: 100%;
+    font-family: "Exo 2", sans-serif;
+    font-size: 40px;
 }
