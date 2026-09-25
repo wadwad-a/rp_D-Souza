@@ -18,7 +18,8 @@
     color: rgb(0, 0, 0);
     font-family: "Smooch Sans", sans-serif;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 120px;
+    font-size: 48px;
 }
 
 .authors {
@@ -97,11 +98,12 @@
     background-color: #d6ffe1;
     padding: 1px;
     font-family: "Smooch Sans", sans-serif;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .procedure-header {
     font-weight: 600;
+    font-size: 48px;
 }
 
 .procedure-img {
@@ -112,7 +114,11 @@
 .showcase {
     background-color: #59d97c;
     font-family: "Smooch Sans", sans-serif;
-    margin-top: 100px;
+    margin-top: 120px;
+}
+
+.step {
+    font-weight: 600;
 }
 
 /* ----------------- ID CSS ----------------- */
@@ -150,22 +156,11 @@
     transform: scaleX(1);
 }
 
-.title-content::after {
-    content: "Aaron D'Souza";
-    bottom: 10px;
-    left: 160px;
-    position: absolute;
-    width: 100%;
-    font-family: "Smooch Sans", sans-serif;
-    font-size: 30px;
-    color: white;
-}
-
 .navbar-brand::after {
     content: 'Research Practicum';
-    bottom: 40px;
-    left: 160px;
-    position: absolute;
+    top: 25px;
+    left: 10px;
+    position: relative;
     width: 100%;
     font-family: "Exo 2", sans-serif;
     font-size: 40px;
