@@ -1,5 +1,5 @@
 async function getData() {
-    const response = await fetch('data.csv');    // fetch data from csv
+    const response = await fetch('data/data.csv');    // fetch data from csv
     const data = await response.text();
 
     const rows = data.split('\n');                  // create rows (labels, means, stdevs)
@@ -67,6 +67,18 @@ async function createChart() {
                 },
             },
             plugins: {                          // remove legend but keep functioning tooltip
+                title: {
+                    display: true,
+                    text: 'Mean Saturation Change Under Different Wavelengths',
+                    font: {
+                        size: 24
+                    },
+                    color: '#black',
+                    padding: {
+                        bottom: 30,
+                        top: 30
+                    }
+                },
                 legend: {
                     display: false
                 },
