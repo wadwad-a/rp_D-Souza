@@ -1,5 +1,5 @@
 async function getData() {
-    const response = await fetch('../data.csv');    // fetch data from csv
+    const response = await fetch('data.csv');    // fetch data from csv
     const data = await response.text();
 
     const rows = data.split('\n');                  // create rows (labels, means, stdevs)
