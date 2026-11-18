@@ -55,6 +55,7 @@ async function createChart() {
             }]
         },
         options: {
+            maintainAspectRatio: false,
             scales: {
                 y: {                            // configure max and min for the chart y-values
                     max: 0,
